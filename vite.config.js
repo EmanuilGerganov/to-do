@@ -6,7 +6,7 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/todo-app/", //base url of website
+  base: "/to-do/", //base url of website
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
